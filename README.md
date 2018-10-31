@@ -11,17 +11,17 @@ Please create a simple "Hello World" API. Meaning:
 # Results
 
 1. Ports
-  -3000 for staging
-  -5000 for production
+  *3000 for staging
+  *5000 for production
 2. Route
-  -hello will return 200 and "Welcome to my API"
-  -others will return 404 error
+  *hello will return 200 and "Welcome to my API"
+  *others will return 404 error
 3. Environments
-  Accessing by NODE_ENV
-    -Possible env: 
-      -Staging
-      -Production
-    -Default: Staging
-  Ex: In app root directory:
-    run: "NODE_ENV=production node index.js" will run server on production mode
+  Accessing by **NODE_ENV**
+    *Possible env: 
+      *Staging
+      *Production
+    *Default: Staging
+  Ex: In app **root** directory:
+    run: "NODE_ENV=production node index.js" will run server on **production** mode
 
